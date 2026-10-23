@@ -93,8 +93,8 @@ jobs:
       R2_BUCKET: ${{ secrets.R2_BUCKET }}
       R2_CDN_DOMAIN: ${{ secrets.R2_CDN_DOMAIN }}
 
-      AOSP_MANIFEST_URL: 'https://github.com/AxionAOSP/android.git'
-      AOSP_MANIFEST_BRANCH: 'lineage-23.2'
+      AOSP_MANIFEST_URL: 'https://github.com/ArrowOS/android_manifest.git'
+      AOSP_MANIFEST_BRANCH: 'arrow-14.0'
 
       GITHUB_TOKEN: ${{ secrets.GH_PAT }}
       GITHUB_REPO_NAME: ${{ github.repository }}
